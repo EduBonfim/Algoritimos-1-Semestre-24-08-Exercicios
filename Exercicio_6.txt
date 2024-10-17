@@ -1,0 +1,23 @@
+//Eduardo Aparecido Bonfim Domingues
+//Curso: TADS - TURMA MANHÃ
+//CPF 40781700809
+
+public class Exercicio_6{
+
+    public static void main(String[] args) {
+        
+        
+        
+        double Expressao_1= (20 - 15) /2.0;
+        System.out.println("Expressão 1: (20 - 15)/2 é igual a: "+Expressao_1);
+        
+        double Expressao_2= Math.pow(2, 5/20) + 30 / Math.pow(15, 2);
+        System.out.println("Expressão 2: 2 ˆ (5/20) + 30 / (15 ˆ 2) é igual a: "+Expressao_2);
+        
+        double Expressao_3= 35/ (6 + 2.0);
+        System.out.println("Expressao 3: 35/ (6 + 2) é igual a: "+Expressao_3);
+        
+        double Expressao_4= 23 % 4;
+        System.out.println("Expressao 4: 23 % 4 é igual a: "+ Expressao_4);
+    }
+}

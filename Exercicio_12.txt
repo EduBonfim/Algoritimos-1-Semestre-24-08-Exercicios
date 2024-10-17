@@ -1,0 +1,36 @@
+//Eduardo Aparecido Bonfim Domingues
+//Curso: TADS - TURMA MANHÃ
+//CPF 40781700809
+
+import java.util.Scanner;
+
+ public class Exercicio_12{
+     public static void main(String[] args){
+        
+        Scanner Calculos = new Scanner(System.in);
+         
+         System.out.print("Digite um Numero para elevar ao quadrado: ");
+         int Quadrado = Calculos.nextInt();
+         double ElevadoAoQuadrado = Math.pow(Quadrado, 2);
+         System.out.println("O Resultado da soma ao Quadrado é: "+ElevadoAoQuadrado);
+         
+         System.out.print("Digite um numero para elevar ao Cubo: ");
+         int Cubo = Calculos.nextInt();
+         double ElevadoAoCubo = Math.pow(Cubo, 3);
+         System.out.println("O Resultado da soma ao Cubo é: "+ElevadoAoCubo);
+         
+         System.out.print("Digite um numero para extrair a Raiz Quadrada: ");
+         int Raiz = Calculos.nextInt();
+         double RaizQuadrada = Math.sqrt(Raiz);
+         System.out.println("A Raiz Quadrada é: "+RaizQuadrada);
+         
+         System.out.print("Digite um numero para elevar a potencia de 10: ");
+         int Potencia = Calculos.nextInt();
+         double ElevadoA10 = Math.pow(Potencia, 10);
+         System.out.println("O Valor do numero elevado a potencia de 10 é: "+ElevadoA10);
+         
+         Calculos.close();
+         
+             }
+         }
+     

@@ -1,0 +1,26 @@
+//Eduardo Aparecido Bonfim Domingues
+//Curso: TADS - TURMA MANHÃ
+//CPF 40781700809
+
+import java.util.Scanner;
+
+ public class Exercicio_11{
+     public static void main(String[] args){
+        
+        Scanner Datas = new Scanner(System.in);
+         
+         System.out.print("Digite seu ano de Nascimento: ");
+         int Nascimento = Datas.nextInt();
+         
+         System.out.print("Digite o Ano Atual: ");
+         int AnoAtual = Datas.nextInt();
+         
+         int Idade = AnoAtual - Nascimento;
+         System.out.println("Você tem "+Idade +" Anos de idade");
+         
+         int IdadeFutura = (2030 - Nascimento);
+         System.out.println("Você terá : "+IdadeFutura+" Anos em 2030");
+
+           Datas.close();
+             }
+         }

@@ -1,0 +1,15 @@
+//Eduardo Aparecido Bonfim Domingues
+//Curso: TADS - TURMA MANHÃ
+//CPF 40781700809
+
+ public class Exercicio_10{
+     public static void main(String[] args){
+         
+         double ValorDePi = 3.14159;
+         double RaioCirculo = Math.pow(5, 2);
+         System.out.println("O calculo da área de um círculo com o raio de 5cm é de:"+(ValorDePi * RaioCirculo));
+        
+             }
+         }
+     
+ 

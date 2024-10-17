@@ -1,0 +1,43 @@
+//Eduardo Aparecido Bonfim Domingues
+//Curso: TADS - TURMA MANHÃ
+//CPF 40781700809
+
+import java.util.Scanner;
+
+public class Exercicio_2{
+    public static void main(String[] args){
+    
+    Scanner Informacoes = new Scanner (System.in);
+    
+    System.out.println("Digite sua idade: ");
+    int Idade = Informacoes.nextInt();
+    
+    System.out.println("Digite sua altura: ");
+    double Altura = Informacoes.nextDouble();
+    
+    System.out.println("Status do aluno: Digite 'O' para Online ou 'F' para Offline");
+    char Status = Informacoes.next().charAt(0); 
+    
+    String estado;
+    
+    if (Status == 'O'){
+        estado ="Online";
+      }
+      else if (Status == 'F'){
+        estado ="Offline";
+      }
+      else {
+          estado ="Erro! Digite 'O' ou 'F'";
+          
+      }
+     //Queria ter implementado uma função de loop nos estados caso fosse digitado 
+     //incorretamente, mas eu esqueci total como faz! kkkk 
+     
+      System.out.println("Idade: "+ Idade);
+      System.out.println("Altura: " + Altura);
+      System.out.println("Status na Aula: "+ estado);
+            
+    Informacoes.close();
+    
+    }
+}

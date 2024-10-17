@@ -1,0 +1,18 @@
+//Eduardo Aparecido Bonfim Domingues
+//Curso: TADS - TURMA MANHÃ
+//CPF 40781700809
+
+ public class Exercicio_9{
+     public static void main(String[] args){
+         
+         System.out.println("Faça um algoritimo para representar");
+         System.out.println("o cálculo da área de um quadrado de 350 metros de lado");
+         
+         double AreaQ = Math.pow (350, 2);
+         System.out.println("A Area Quadrada é de: "+ AreaQ+"m2");
+         
+        
+         
+             }
+         }
+     

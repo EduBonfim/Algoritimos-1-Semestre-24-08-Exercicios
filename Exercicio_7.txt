@@ -1,0 +1,25 @@
+//Eduardo Aparecido Bonfim Domingues
+//Curso: TADS - TURMA MANHÃ
+//CPF 40781700809
+
+ public class Exercicio_7{
+     public static void main(String[] args){
+         
+         boolean Expressao1 = ((120 - 30) == Math.pow(3, 30)); 
+         System.out.println("Primeira Expressao:"+ Expressao1);
+         
+         boolean Expressao2 =(! ((20 % 4)==1) || (9 != 9));
+         System.out.println("Segunda Expressao:"+ Expressao2);
+         
+         boolean Expressao3 = ((5 % 2) > 3);
+         System.out.println("Terceira Expressao:"+ Expressao3);
+         
+         char a='a';
+         char A='A';
+         boolean Expressao4 = (a==A);
+         System.out.println("Quarta Expressao:"+ Expressao4);
+             }
+         }
+     
+     
+ 

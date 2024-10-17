@@ -1,0 +1,26 @@
+//Eduardo Aparecido Bonfim Domingues
+//Curso: TADS - TURMA MANHÃ
+//CPF 40781700809
+
+ public class Exercicio_8{
+     public static void main(String[] args){
+         
+         Double nota1 = 8.0;
+         System.out.println("Primeira Nota: "+ nota1);
+         
+         Double nota2 = 7.5;
+         System.out.println("Segunda Nota: "+ nota2);
+         
+         Double nota3 = 4.5;
+         System.out.println("Terceira Nota: "+ nota3);
+         
+         Double nota4 = 9.0;
+         System.out.println("Quarta Nota: "+ nota4);
+         
+         Double SomaDasNotas = (8.0 + 7.5 + 4.5 + 9.0) /4;
+         System.out.println("A média das notas é: "+ SomaDasNotas);;
+         
+             }
+         }
+     
+ 
